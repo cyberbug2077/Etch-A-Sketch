@@ -3,12 +3,13 @@
 }
 
 .row {
+    display: flex;
 }
 
 .tile {
-    float: left;
-    width: 480px;
-    height: 480px;
-    background-color: cornsilk;
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    /* border: 1px black solid;
     box-sizing: border-box;
+    */
 }

@@ -12,9 +12,6 @@ function makeGrid(width, height, padColor) {
         for (let j = 0; j < width; j++) {
             const tile = document.createElement('div');
             tile.classList.add('tile');
-            let tileLength = gridWidthInPixels / width;
-            tile.style.width = `${tileLength}px`;
-            tile.style.height = `${tileLength}px`;
             tile.style.backgroundColor = padColor;
             row.appendChild(tile);
         }
