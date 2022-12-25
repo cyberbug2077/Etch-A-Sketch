@@ -1,0 +1,14 @@
+.grid {
+    width: 960px;
+}
+
+.row {
+}
+
+.tile {
+    float: left;
+    width: 480px;
+    height: 480px;
+    background-color: cornsilk;
+    box-sizing: border-box;
+}
